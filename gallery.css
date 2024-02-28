@@ -1,0 +1,65 @@
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header styling */
+header {
+    background-color:turquoise; /* Blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #3498db; /* Blue background */
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #217dbb; /* Darker blue on hover */
+}
+
+/* Gallery section styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Gallery item styling */
+.gallery-item {
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image hover effect */
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
